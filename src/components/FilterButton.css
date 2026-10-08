@@ -1,0 +1,57 @@
+div.filterWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 0 20px 0;
+}
+
+div.filtres{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+div.filtres div.filter{
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+div.filtres div.filter button{
+  padding: 10px 7px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  color: #252525;
+  border: 2px #252525 solid;
+  box-shadow: 3px 5px 13px -3px rgba(0, 0, 0, 0.301);
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+div.filtres div.decada button{
+  background-color: #F2C6CF;
+}
+
+div.filtres div.decada button:focus{
+  background-color: #e0b9c0;
+}
+
+div.filtres div.genera button{
+  background-color: #F7E6D8;
+}
+
+div.filtres div.genera button:focus{
+  background-color: #e6d7ca;
+}
+
+div.filtres div.filter button.totbtn{
+  background-color: #535554;
+  color: whitesmoke;
+}
+
+div.filtres div.filter button:hover{
+  transform: translate(1px, 1px);
+  box-shadow: none;
+}

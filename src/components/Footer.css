@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #536B5A;
+    border: 2px black solid;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 30px;
+    color: whitesmoke;
+}

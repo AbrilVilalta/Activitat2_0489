@@ -1,0 +1,97 @@
+
+li.gameCard{
+    width: 300px;
+    height: auto;
+    background-color: #F7F8F5;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px black solid;
+    box-shadow: 3px 5px 13px -3px rgba(0, 0, 0, 0.47);
+}
+
+li.gameCard div.cap{
+    content: '';
+    display: flex;
+    position: relative;
+    justify-content:space-between;
+    align-items: center;
+    width: 320px;
+    background-color: #F3C7D0;
+    height: 50px;
+    transform: translate(-20px, -20px);
+    border-radius: 18px 18px 0 0;
+    border-bottom: 2px black solid;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+li.gameCard div.cap div.cercles{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+li.gameCard div.cap div.cercles div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #8FB89A;
+    border-bottom: 2px black solid;
+}
+
+li.gameCard img{
+    width: 340px;
+    transform: translate(-20px, -20px);
+    border-bottom: 2px black solid;
+}
+
+li.gameCard div.fav_gen{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+li.gameCard div.fav_gen div.genera{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #8FB89A;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 40px;
+    border: 1px black solid;
+}
+
+li.gameCard div.fav_gen div.favbtn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3C7D0;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px black solid;
+    box-shadow: 3px 5px 13px -3px rgba(0, 0, 0, 0.47);
+    cursor: pointer;
+}
+
+li.gameCard div.fav_gen div.favbtn:hover{
+    transform: translate(1px, 1px);
+    box-shadow: none;
+}
+
+li.gameCard div.fav_gen div.favbtn:active{
+    background-color: #ebbac4;
+}
+
+li.gameCard h3.gameTitle{
+    text-align: start;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+li.gameCard p.gameYear{
+    text-align: start;
+}

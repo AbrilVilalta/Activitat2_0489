@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1.titolFavGame {
+  color: #536B5A;
+}
+
+ul.gameList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 16px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+div.allGames{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
